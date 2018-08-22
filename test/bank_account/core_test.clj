@@ -21,8 +21,4 @@
            (map deref (requests (atom initial-balance)))))))
 
 
-;(println (deref (requests (atom initial-balance))))
-
-(println (map deref (requests (atom initial-balance))))
-
-;(run-tests)
+(run-tests)
