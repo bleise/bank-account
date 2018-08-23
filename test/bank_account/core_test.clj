@@ -20,5 +20,6 @@
               nil)
            (map deref (requests (atom initial-balance)))))))
 
+(def teste {123})
 
 (run-tests)
